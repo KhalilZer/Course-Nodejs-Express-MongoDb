@@ -18,3 +18,24 @@ cd Course-Nodejs-Express-MongoDb
 Exécutez la commande suivante pour installer toutes les dépendances nécessaires :  
 ```sh
 npm install
+```
+### 4️⃣ Configurer MongoDB  
+
+Créez un fichier `.env` à la racine du projet et ajoutez les informations de connexion :  
+
+```env
+MONGO_URI=mongodb://127.0.0.1:27017/monApp  
+PORT=5000
+```
+### 5️⃣ Démarrer le serveur  
+
+Assurez-vous que toutes les dépendances sont bien installées, puis démarrez le serveur avec :  
+
+```sh
+npm install  # Vérification des dépendances  
+npm start    # Lancer le serveur en mode production  
+
+# Ou pour un démarrage en mode développement avec nodemon  
+npm run dev  
+
+
