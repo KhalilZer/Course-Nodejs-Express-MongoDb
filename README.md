@@ -32,10 +32,19 @@ PORT=5000
 Make sure all dependencies are properly installed, then start the server with:
 
 ```sh
-npm install  # Vérification des dépendances  
-npm start    # Lancer le serveur en mode production  
+npm install  # Check dependencies  
+npm start    # Start the server in production mode   
 
-# Ou pour un démarrage en mode développement avec nodemon  
-npm run dev  
+# Or for development mode with nodemon 
+npm run dev
+```
+
+## Author
+
+This guide was created by [Khalil Zer](https://github.com/KhalilZer).  
+Feel free to check out more of my projects and contributions on GitHub.  
+
+For any questions or suggestions, you can reach out to me via my GitHub or email.
+
 
 
